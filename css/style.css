@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-image: url("../img/Kohvi_2.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment:fixed;
+}
+ .intro-image_link a {
+    background-color:rgba(150, 103, 42, 0.781);
+    background-position: bottom;
+    border: 2px solid rgb(150, 103, 42, 0.185);
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+
+ }
+ .intro-image_link a:hover {
+     transform: scale(1.2);
+
+ }
+ .intro-text {
+     background-color: rgb(85, 39, 5);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: whitesmoke;
+     height: 350px;
+     padding: 0 15rem;
+
+ }
+ .intro-text_textbox h3{
+     font-size: 2rem;
+     text-transform: uppercase;
+     margin-bottom: 1rem;
+ }
+ .quality-image {
+     background-image: url("../img/Kohvi_3.jpg");
+     background-size: cover;
+     background-position: bottom;
+     height: 450px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-attachment:fixed;
+ }
+ .quality-image_link a{
+    background-color:rgba(153, 119, 74, 0.438);
+    border: 2px solid rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+ }
+ .quality-image_link a:hover {
+    transform: scale(1.1);
+ }
+ .quality-text {
+    background-color: rgb(107, 65, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    height: 350px;
+    padding: 0 15rem;
+ }
+ .quality-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.origin-image {
+    background-image: url("../img/Kohvi_1.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment:fixed;
+}
+.origin-image_link a {
+    background-color:rgba(150, 103, 42, 0.781);
+    background-position: bottom;
+    border: 2px solid rgb(150, 103, 42, 0.185);
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+.origin-image_link a:hover {
+    transform: scale(1.2);
+
+}
+.origin-text {
+    background-color: rgb(85, 39, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    height: 350px;
+    padding: 0 15rem;
+}
+.origin-text-textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.footer {
+    height: 250px;
+    background-color: rgb(211, 199, 189);
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+.footer ul li:hover {
+    transform: scale(1.1);
+}
+.footer ul li a:hover {
+    color: rgba(0, 0, 0, 0.644);
+}
